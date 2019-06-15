@@ -1,0 +1,28 @@
+$color_1: #333333;
+$color_2: #777777;
+$color_3: #D1D0D1;
+$color_4: #4A90E2;
+$white: #ffffff;
+$black: #000000;
+
+$base_unit: 16px;
+$line_height: 1.25 * $base_unit;
+
+$font_size_body: $base_unit;
+$font_size_body2: .75 * $base_unit;
+$font_size_h1: 2 * $base_unit;
+$font_size_h2: 1.5 * $base_unit;
+$font_size_h3: 1.25 * $base_unit;
+
+$space: 2 * $base_unit;
+
+$font: 'Poppins', sans-serif;
+$font_normal: 400;
+$font_bold: 700;
+
+$container-max-width: 74 * $base_unit;
+
+$bpoint_mobile: 320px;
+$bpoint_tab: 768px;
+$bpoint_desk: 1200px;
+$bpoint_hd: 1920px;

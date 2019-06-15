@@ -1,0 +1,75 @@
+html{
+    font-family: $font;
+    font-size: $base_unit;
+    color: $color_1;
+    line-height: $line_height;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+h1, .h1{
+    font-size: $font_size_h1;
+    margin-bottom: $base_unit;
+}
+
+
+h2, .h2{
+    font-size: $font_size_h2;
+    margin-bottom: $base_unit;
+}
+
+h3, .h3{
+    font-size: $font_size_h3;
+    margin-bottom: $base_unit;
+}
+
+small{
+    font-size: $font_size_body2;
+    margin-bottom: $base_unit;
+}
+
+.btn{
+    padding: .5*$base_unit $base_unit;
+    text-transform: uppercase;
+    background-color: $color_4;
+    color: $white;
+    border: 1px solid $color_4;
+    display: inline-block;
+    font-size: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        background-color: $white;
+        color: $color_1;
+    }
+}
+
+.inpt{
+    border: 1px solid $color_2;
+    padding: .5*$base_unit $base_unit;
+    font-size: $base_unit;
+    color: $color_2;
+
+}
+
+.inpt:active{
+    border: 1px solid $color_4;
+
+}
+
+.wrapper{
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding-left: $base_unit;
+    padding-right: $base_unit;
+
+    @media (min-width: $bpoint_tab){
+        padding-left: 2 * $base_unit;
+        padding-right: 2 * $base_unit;
+    }
+}
+
